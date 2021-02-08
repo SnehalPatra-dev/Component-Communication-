@@ -1,0 +1,29 @@
+Using CDN Network:
+
+In order to include Bootstrap styles in Angular framework, we can directly include the link and the script from the Bootstrap website in the <link> and <script> tag respectively. 
+This is the  first process of using CDN Network where we take the CDN URL of styles and scripts and link them in the HTML files. 
+
+Using NPM Package Manager:
+
+# Step1)
+    For Bootstrap 4:
+      npm install bootstrap jquery popper --save
+                 OR
+      npm i bootstrap jquery popper --save 
+     
+    For Bootstrap 5:
+      npm i bootstrap popper --save
+
+# Step2) 
+      Update the styles and scripts in Angular.json
+
+Note that we use --save because we want to apply the package in the local module, not the global.
+
+For updating the styles and scripts, follow:
+
+https://www.youtube.com/watch?v=lcCeE1m0r_k&list=PLp50dWW_m40XTcxIaXVqO60LaIlyHWxDS&index=5
+
+Content after 10:00 minutes.
+
+(Q) What is Bootstrap popper?
+    Popper.js is a positioning engine. Its purpose is to calculate the position of an element to make it possible to position the element near a given reference element. Poppe.js has zero dependencies.

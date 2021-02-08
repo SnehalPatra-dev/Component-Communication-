@@ -1,0 +1,21 @@
+CLI for installing angular material:
+
+ng add @angular/material
+
+After this, you may choose a pre-built theme or set up a custom theme.
+
+Set up global Angiular material typography styles? Yes
+
+Set up browser animations for Angular Material? Yes
+
+Tutorial link:
+
+https://www.youtube.com/watch?v=ISf6o99LdKQ&list=PLp50dWW_m40XTcxIaXVqO60LaIlyHWxDS&index=6
+
+
+(Q) What happens after running the command?
+    
+    UPDATE src/app/app.module.ts (502 bytes) ------>  This will update the browser animations. 
+    UPDATE angular.json (3875 bytes) 
+    UPDATE src/index.html (576 bytes)
+    UPDATE src/styles.scss (181 bytes)
